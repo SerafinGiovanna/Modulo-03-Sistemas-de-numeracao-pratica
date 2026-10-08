@@ -1,0 +1,18 @@
+Some, mostrando coluna por coluna e o vai-um explicitamente (como no exemplo da teoria):
+
+1. 0110 + 0011
+2. 1011 + 0111
+
+1.0110 + 0011
+0¹1¹10
+0011 +
+-------
+1111
+R = 1111
+
+2.1011 + 0111
+¹1¹0¹1¹1 
+ 0 1 1 1 +
+-------
+10010
+R = 10010
