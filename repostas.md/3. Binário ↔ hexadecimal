@@ -1,0 +1,15 @@
+1.Converta 11010110 para hexadecimal, mostrando o agrupamento em blocos de 4 bits.
+2.Converta 0x3F para binário e depois para decimal.
+
+1. 11010110
+1101 0110 | 8 4 2 1
+  C    6  | 1 1 1 1 
+
+A = 10 
+B = 11
+C = 12
+D = 13
+E = 14
+F = 15
+
+2.  0x3F
