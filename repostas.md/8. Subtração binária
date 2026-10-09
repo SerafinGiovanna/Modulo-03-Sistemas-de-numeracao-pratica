@@ -1,0 +1,9 @@
+A subtração binária segue a mesma lógica da subtração decimal com "empréstimo" (borrow), do mesmo jeito que a soma usa "vai-um" (carry) 
+— quando falta valor numa coluna, você empresta 1 da coluna seguinte (que vale o dobro).
+
+1.Subtraia mostrando coluna por coluna e o empréstimo explícito: 1011 - 0011.
+2.Subtraia: 1000 - 0001 (esse exemplo tem empréstimo encadeado por várias colunas — mostre cada uma).
+3.Agora resolva 1011 - 0011 de novo, mas usando complemento de 2 de 0011 somado a 1011 (você vai fazer isso no exercício 9 
+— volte aqui depois de resolver o 9 e confirme que os dois métodos dão o mesmo resultado).
+
+1 

@@ -1,0 +1,21 @@
+1.Converta 41 para octal (base 8), usando o mesmo método de divisões sucessivas — só que dividindo por 8 em vez de por 2. Mostre cada passo.
+2.Converta 0o61 (octal) de volta para decimal, somando o valor de posição de cada dígito (potências de 8, não de 2).
+3.Converta 101001 (binário) direto para octal, agrupando de 3 em 3 bits a partir da direita (não de 4 em 4 como no hexadecimal — explique por que o agrupamento muda: 2³ = 8).
+4.[CLI] Confira tudo com python3 -c "print(oct(41), int('61', 8))".
+
+1. 
+41:8 = 5 (41-40) = 1
+OCTAL = 51
+
+2.
+0  0  6  1
+8³ 8² 8¹ 8^0
+0  0  48 0
+DECIMAL = 48
+
+3.
+101 | 001
+421 | 421
+----------
+401001
+OCTAL = 411  

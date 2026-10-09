@@ -1,0 +1,5 @@
+Quantos bits, no mínimo, são necessários para representar todos os números inteiros de 0 até 1000? 
+Não vale só dar o número — explique o raciocínio: quantos valores diferentes n bits conseguem representar, 
+e a partir de qual n esse total passa de 1000.
+
+São necessários 10 bits, com 10 bits, temos valores, suficientes para representar todos os números de 0 até 1000, que totalizam 1001 números.
