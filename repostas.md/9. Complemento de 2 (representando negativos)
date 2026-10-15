@@ -1,0 +1,24 @@
+Complemento de 2 é como um computador representa números negativos usando só 0 e 1 — sem precisar de um símbolo de -. Considerando registradores de 4 bits:
+
+1.Encontre o complemento de 2 de 0011 (decimal 3), passo a passo: inverta todos os bits (complemento de 1) e depois some 1. 
+Confirme que o resultado, interpretado como negativo, representa -3.
+2.Faça o caminho inverso: dado 1101 (em complemento de 2, 4 bits), descubra que número decimal negativo ele representa 
+(inverta os bits do resultado e some 1, depois leia como positivo e aplique o sinal de menos).
+3.Volte ao exercício 8.3 e confirme, escrevendo explicitamente, que 1011 - 0011 e 1011 + complemento_de_2(0011) dão o mesmo resultado (descartando o vai-um extra que "estoura" os 4 bits, se houver).
+4.[TENTE VOCÊ] Por que complemento de 2 evita a necessidade de um circuito separado pra subtração (ele reaproveita o mesmo somador)? Resposta: porque subtrair A - B vira somar A + complemento_de_2(B) — o hardware só precisa saber somar, nunca subtrair de fato.
+
+
+1. 
+- 3 ÷ 2 = 1, resto 1
+- 1 ÷ 2 = 0, resto 1
+BINÁRIO = 0011
+CONVERSÃO: 0011 - 1100
+SOMA: 1100 + 1 ou 0001 = 1101
+2.
+ CONVERSÃO: 1101 - 0010
+ SOMA: 0010 + 1 ou 0001 = 0011
+ BINÁRIO = 0011
+ 3.
+ 1011 - 0011 = 1000
+ 1011 + 0011 = 1000
+  
