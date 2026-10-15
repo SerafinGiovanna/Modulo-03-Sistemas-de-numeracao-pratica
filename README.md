@@ -5,7 +5,7 @@ Neste repositório vai conter os exercícios e o arquivo de resposta.md (contend
 ## Módulo 03-Sistemas-Numeracao-Prática
 
 ###### -----------------------------------------------------
-- [ 1.Decimal → binário](#1-Decimal-binário)
+- [ 1.Decimal → binário](#1-Decimal-→-binário)
 - [ 2. Binário → decimal](#2-Binário-decimal)
 - [ 3. Binário ↔ hexadecimal](#3-Binário-hexadecimal)
 - [ 4. Soma binária](#4-Soma-binária)
