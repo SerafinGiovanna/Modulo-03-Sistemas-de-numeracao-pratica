@@ -1,0 +1,5 @@
+1. Sem consultar nada, tente lembrar (ou pesquisar numa tabela ASCII) o código decimal do caractere 'A' maiúsculo. Depois confira com [CLI] python3 -c "print(ord('A'))".
+2. Faça o mesmo para 'a' minúsculo e para o dígito '0'. Compare os três códigos — qual a diferença numérica entre 'A' e 'a'? E entre '0' e o valor inteiro que ele representa?
+3. Rode python3 -c "print(len('á'.encode('utf-8')))". O resultado não é 1 — explique por que um único caractere acentuado como á ocupa mais de 1 byte quando codificado em UTF-8 
+(dica: ASCII original só cobre 128 símbolos — 7 bits — porque não precisava representar acentos; 
+UTF-8 precisa de mais bytes pra cobrir símbolos fora desse conjunto original, mantendo compatibilidade com ASCII puro pros primeiros 128).

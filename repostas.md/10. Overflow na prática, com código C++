@@ -1,0 +1,13 @@
+1. Sem rodar nada ainda: preveja o que acontece se você somar 1 ao valor 255 guardado numa variável unsigned char (8 bits sem sinal, capacidade máxima 255). Escreva sua previsão antes de checar.
+2. Escreva e rode este programa em C++ (revise o módulo 08 se precisar relembrar como compilar no Windows) pra confirmar:
+
+#include <iostream>
+
+int main() {
+    unsigned char valor = 255;
+    valor = valor + 1;
+    std::cout << "Resultado: " << static_cast<int>(valor) << "\n";
+    return 0;
+}
+
+3. O resultado bateu com sua previsão? Explique, em termos de bits, por que 255 + 1 "dá a volta" e vira 0 num tipo de 8 bits (dica: quantos valores 8 bits representam, e o que acontece quando você tenta ir um valor além do maior deles).

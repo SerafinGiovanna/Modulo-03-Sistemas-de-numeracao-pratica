@@ -1,0 +1,7 @@
+Um endereço IPv4 como 192.168.1.1 é, por baixo dos panos, 4 números de 8 bits (0-255) cada, separados por pontos —
+ o mesmo conceito de bits e bytes deste módulo, só que aplicado a um caso real que você vai encontrar de novo no módulo 07 (Redes).
+
+1. Converta cada um dos 4 octetos de 192.168.1.1 para binário (8 bits cada, com zeros à esquerda se precisar), e junte tudo numa sequência de 32 bits.
+2. Faça o caminho inverso: dado o binário 00001010 00000000 00000000 00000001, separe em 4 octetos e converta cada um de volta pra decimal, 
+remontando o endereço IP no formato usual.
+
