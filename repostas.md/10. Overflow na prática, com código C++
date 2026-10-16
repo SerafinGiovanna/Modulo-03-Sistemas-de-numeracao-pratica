@@ -11,3 +11,6 @@ int main() {
 }
 
 3. O resultado bateu com sua previsão? Explique, em termos de bits, por que 255 + 1 "dá a volta" e vira 0 num tipo de 8 bits (dica: quantos valores 8 bits representam, e o que acontece quando você tenta ir um valor além do maior deles).
+
+1. O resultado dará 0.
+3. Sim. Pois a partir do momento que o bit "quebra" seu limite ele renicia o valor, ou seja, volta a escala inicial pois o limite foi excedido. 

@@ -5,3 +5,17 @@ Um endereço IPv4 como 192.168.1.1 é, por baixo dos panos, 4 números de 8 bits
 2. Faça o caminho inverso: dado o binário 00001010 00000000 00000000 00000001, separe em 4 octetos e converta cada um de volta pra decimal, 
 remontando o endereço IP no formato usual.
 
+1. 
+   192   11000000
+   168   10101000
+   1     00000001
+   1     00000001
+
+BINÁRIO = 11000000101010000000000100000001
+
+2.
+0001010 10
+00000000 0
+00000000 0
+00000001 1
+ DECIMAL = 10.0.0.1

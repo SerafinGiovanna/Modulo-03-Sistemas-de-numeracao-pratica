@@ -36,9 +36,9 @@ Neste repositório vai conter os exercícios e o arquivo de resposta.md (contend
   Quantos bits, no mínimo, são necessários para representar todos os números inteiros de 0 até 1000? Não vale só dar o número — explique o raciocínio: quantos valores diferentes n bits conseguem representar, e a partir de qual n esse total passa de 1000.
   ***
   ## 7. Decimal ↔ octal, e a "quarta base"
-  1. Converta 41 para octal (base 8), usando o mesmo método de divisões sucessivas — só que dividindo por 8 em vez de por Mostre cada passo.
+  1.Converta 41 para octal (base 8), usando o mesmo método de divisões sucessivas — só que dividindo por 8 em vez de por Mostre cada passo.
          
-  2. Converta 0o61 (octal) de volta para decimal, somando o valor de posição de cada dígito (potências de 8, não de 2).
+  2.Converta 0o61 (octal) de volta para decimal, somando o valor de posição de cada dígito (potências de 8, não de 2).
 
   3.Converta 101001 (binário) direto para octal, agrupando de 3 em 3 bits a partir da direita (não de 4 em 4 como no hexadecimal — explique por que o agrupamento muda: 2³ = 8).
 

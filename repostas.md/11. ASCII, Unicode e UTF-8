@@ -3,3 +3,6 @@
 3. Rode python3 -c "print(len('á'.encode('utf-8')))". O resultado não é 1 — explique por que um único caractere acentuado como á ocupa mais de 1 byte quando codificado em UTF-8 
 (dica: ASCII original só cobre 128 símbolos — 7 bits — porque não precisava representar acentos; 
 UTF-8 precisa de mais bytes pra cobrir símbolos fora desse conjunto original, mantendo compatibilidade com ASCII puro pros primeiros 128).
+
+2. '0' é 48, o de 'A' é 65 e o 'a' minúsculo é 97, a diferença numérica entre 'A' e 'a' é de 32. E entre o 0, 17 para '0' e 'A', e 48 para '0' e 'a'.
+ 
